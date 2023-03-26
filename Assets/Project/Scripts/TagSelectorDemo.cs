@@ -11,6 +11,7 @@ namespace Project.Scripts
         [SerializeField, TagSelector] private string singleTag;
         [SerializeField, TagSelector] private string[] multipleTagsArray;
         [SerializeField, TagSelector] private List<string> multipleTagsList;
+        
         [Header("Debug Controls")]
         [SerializeField] private float delayBetweenPrints = 1f;
         [SerializeField] private TextMeshProUGUI singleTagText;

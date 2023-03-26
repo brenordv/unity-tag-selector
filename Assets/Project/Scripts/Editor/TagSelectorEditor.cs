@@ -4,6 +4,13 @@ using UnityEngine;
 
 namespace Project.Scripts.Editor
 {
+    /// <summary>
+    /// Most simple way I could find to do this.
+    /// Nothing fancy, but it works fine.
+    /// </summary>
+    /// <remarks>
+    /// From: https://github.com/brenordv/unity-tag-selector.git
+    /// </remarks>
     [CustomPropertyDrawer(typeof(TagSelectorAttribute))]
     public class TagSelectorEditor : PropertyDrawer
     {
